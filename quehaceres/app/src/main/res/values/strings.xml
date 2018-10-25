@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2015 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">QUEHACERES</string>
+    <string name="add_task">Nueva Tarea</string>
+    <string name="edit_task">Editar Tarea</string>
+    <string name="task_marked_complete">Tarea marcada como completa</string>
+    <string name="task_marked_active">Tarea marcada como active</string>
+    <string name="loading_tasks_error">Error al cargar tareas</string>
+    <string name="completed_tasks_cleared">Tareas completas borradas</string>
+    <string name="menu_filter">Filtros</string>
+    <string name="menu_clear">Borrar completas</string>
+    <string name="menu_delete_task">Borrar Tarea</string>
+    <string name="navigation_view_header_title">Tareas</string>
+    <string name="title_hint">Título</string>
+    <string name="description_hint">Ingrese su tarea aquí.</string>
+    <string name="empty_task_message">Las tareas no puden quedar vacías!</string>
+    <string name="successfully_saved_task_message">Tarea guardada</string>
+    <string name="list_title">Lista de Tareas</string>
+    <string name="statistics_title">Estadísticas</string>
+    <string name="statistics_no_tasks">No tiene tareas</string>
+    <string name="statistics_active_tasks">Tareas Activas:</string>
+    <string name="statistics_completed_tasks">Tareas Completas</string>
+    <string name="statistics_error">Error al cargar las estadísticas</string>
+    <string name="no_data">Sin datos</string>
+    <string name="loading">CARGANDO</string>
+
+    <string-array name="list_tasks_array">
+        <item>@string/nav_all</item>
+        <item>@string/nav_active</item>
+        <item>@string/nav_completed</item>
+    </string-array>
+    <string name="nav_all">Todas</string>
+    <string name="nav_active">Activas</string>
+    <string name="nav_completed">Completas</string>
+    <string name="label_all">Todas las tareas</string>
+    <string name="label_active">Tareas Activas</string>
+    <string name="label_completed">Tareas Completas</string>
+    <string name="no_tasks_all">No tienes tareas!</string>
+    <string name="no_tasks_active">No tienes tareas Activas!</string>
+    <string name="no_tasks_completed">No tienes tareas Completas!</string>
+    <string name="no_tasks_add">Agregar un Ítem de Tarea +</string>
+    <string name="refresh">Actualizar</string>
+
+</resources>

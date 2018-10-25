@@ -1,0 +1,20 @@
+@startuml
+activate Activity
+Activity -> aView_Fragment: newInstance()
+activate aView_Fragment
+aView_Fragment --> Activity
+Activity -> ActivityUtils: addFragmentToActivity(aView_Fragment)
+ActivityUtils --> Activity
+Activity -> aUseCase: new()
+activate aUseCase
+aUseCase --> Activity
+Activity -> aPresenter: new(aView_Fragment, aUseCase)
+activate aPresenter
+aPresenter --> Activity
+aPresenter -> aView_Fragment: setPresenter(this)
+aView_Fragment -> aPresenter: start()
+aPresenter -> aUseCase: execute(aUseCase.request)
+aUseCase --> aPresenter: aUseCase.response
+aPresenter -> aView_Fragment: updateUI()
+aView_Fragment --> aPresenter
+@enduml
